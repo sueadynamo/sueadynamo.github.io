@@ -1,0 +1,57 @@
+<!-- CSS3D by simurai.com -->
+
+.wrapper {
+	text-align: left;
+	color: #000;
+	font-weight: bold;
+	font-size: 2em;
+    position: fixed; 
+	padding-left:200;
+}
+
+.wrapper2 {
+	color: #000;
+	font-weight: bold;
+	font-size: 2em;
+	text-align:right;
+	margin-top: 100px;
+	padding: 25px 50px 50px 0;
+}
+
+
+
+/* ---------------- Title ---------------- */
+
+.title {
+	font-family: Helvetica, Geneva, sans-serif;		/* Any font would work, but SansSerif looks better */
+}
+.title:focus {
+	outline: none;
+}
+.title span {
+	text-shadow: -0.06em 0 red,  0.06em 0 cyan; 	/* This creates the 3D effect, pretty easy, eh? */
+	letter-spacing: 0.08em;							/* make sure the letters don't overlap */
+	vertical-align: middle;	
+	font-weight: bold;
+	font-size: 2em;
+	line-height: .5em;
+	-webkit-transition: font-size 2s cubic-bezier(0, 1, 0, 1);
+}
+.title span:hover {
+	font-size: 3em;	/* This adds a hover effect */
+	line-height: .25em;
+	-webkit-transition: font-size .2s cubic-bezier(0, 0.75, 0, 1);
+}
+.title span:active {
+	font-size: 1em;
+	text-shadow: none;	/* Click to disable the 3D effect */
+}
+.title span:selection {
+	background-color: red;	/* This hides the selection */
+}
+
+
+
+
+
+

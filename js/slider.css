@@ -1,0 +1,66 @@
+     slider css 
+    <style>
+      #gallery-t-group {
+  width: 100%;
+}
+.rsDefaultInv,
+.rsDefaultInv .rsOverflow,
+.rsDefaultInv .rsSlide,
+.rsDefaultInv .rsVideoFrameHolder,
+.rsDefaultInv .rsThumbs {
+	height: 600px;
+	width: 600px;
+	background-color: #CCC;
+	left: 150px;
+}
+
+#gallery-t-group .rsThumb {
+  float: left;
+  overflow: hidden;
+  width: 56px;
+  height: 56px;
+}
+#gallery-t-group .rsThumbs {
+  width: 285px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  padding: 0 0 0 1px;
+  right: 0;
+}
+#gallery-t-group .rsGCaption {
+  right: 285px;
+  line-height: 12px;
+  padding: 1px 7px;
+  font-size: 11px;
+  background: #EEE;
+  position: absolute;
+  width: auto;
+  bottom: 0;
+  float: none;
+  text-align: left;
+}
+@media screen and (min-width: 0px) and (max-width: 1200px) {  
+  #gallery-t-group .rsThumbs {
+    width: 228px;
+  }
+  #gallery-t-group .rsGCaption {
+    right: 228px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 760px) {  
+  #gallery-t-group .rsThumbs {
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1px 0 0 1px;
+  }
+  #gallery-t-group .rsThumbsContainer {
+    height: auto !important;
+  }
+  #gallery-t-group .rsGCaption { 
+    right: 0;
+  }
+
+}
